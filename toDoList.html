@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>toDoList-最简单的代办事项列表</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/todolist.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/todolist.js"></script>
+</head>
+<body>
+<header>
+	<section>
+		<label for="title">toDoList</label>
+		<input type="text" name="title" id="title" placeholder="添加ToDo" required="required" autocomplete="off">
+	</section>
+</header>
+<section>
+	<h2>正在进行<span id="todocount"></span></h2>
+	<ol id="todolist" class="demo-box">
+		<!--<li>
+			<input type="checkbox" name="" id="">
+			<p>今天下雨了</p>
+			<a href="#"></a>
+		</li>-->
+	</ol>
+	<h2>已经完成<span id="donecount"></span></h2>
+	<ul id="donelist">
+		<!--<li>
+			<input type="checkbox" name="" id="">
+			<p>今天下雨了</p>
+			<a href="#"></a>
+		</li>-->
+	</ul>
+</section>
+<footer>
+		Copyright &copy; 2020 todolist.cn <a href="javascript:clear();">clear</a>
+</footer>
+</body>
+</html>
